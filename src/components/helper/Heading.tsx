@@ -1,11 +1,6 @@
-import React from "react";
+import { HeadingTextType } from "@/interfaces/HeadingTextType";
 
-interface TextType {
-  first: string;
-  second: string;
-}
-
-const Heading = ({ first, second }: TextType) => {
+const Heading = ({ first, second }: HeadingTextType) => {
   return (
     <div className="text-center mb-2">
       <h2 className="text-4xl md:text-5xl font-bold tracking-tight">

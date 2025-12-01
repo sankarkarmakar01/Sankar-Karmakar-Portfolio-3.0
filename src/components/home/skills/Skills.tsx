@@ -8,7 +8,7 @@ const Skills: React.FC = () => {
     <div className="pt-26 pb-16 min-h-screen flex flex-col items-center justify-center">
       <Heading first="Tech" second="Stacks" />
 
-      <div className="container max-w-5xl mx-auto px-6">
+      <div className="container max-w-5xl mx-auto px-6 mt-8">
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-x-8 gap-y-12 justify-items-center">
           {techStacks.map((elem, idx) => {
             return (

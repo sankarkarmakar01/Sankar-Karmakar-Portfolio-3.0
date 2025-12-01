@@ -30,7 +30,6 @@ const Hero: React.FC = () => {
         {/* Download CV Button */}
         <Link
           href="/pdfs/Sankar_Karmakar_CV.pdf"
-          download
           className="group relative inline-flex items-center gap-2 sm:gap-3 px-5 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl 
              bg-linear-to-br from-white/10 to-white/5 backdrop-blur-xl 
              border border-white/20 shadow-xl sm:shadow-2xl
@@ -54,7 +53,7 @@ const Hero: React.FC = () => {
                    opacity-0 group-hover:opacity-20 blur-sm sm:blur-md transition-opacity duration-500"
           />
 
-          {/* Inner shadow for depth */}
+          {/* Inner shadow */}
           <div className="absolute inset-0 rounded-xl sm:rounded-2xl shadow-[inset_0_1px_0_rgba(255,255,255,0.2),inset_0_-1px_0_rgba(0,0,0,0.1)]" />
 
           {/* Content */}
@@ -68,7 +67,7 @@ const Hero: React.FC = () => {
           </span>
         </Link>
 
-        {/* Responsive Scroll Down Arrow */}
+        {/* Scroll Down Arrow */}
         <div className="pt-8 sm:pt-12">
           <Link
             href="#experience"

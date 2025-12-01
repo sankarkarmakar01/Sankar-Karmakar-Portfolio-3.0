@@ -3,17 +3,10 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import SocialIcon from "./SocialIcon";
+import { NavbarPropsType } from "@/interfaces/NavbarPropsType";
+import { NavLinksType } from "@/interfaces/NavLinksType";
 
-// Define the interface for the props
-interface NavbarProps {
-  socialLinks: {
-    LinkedinLink?: string | unknown;
-    GithubLink?: string | unknown;
-    YoutubeLink?: string | unknown;
-  };
-}
-
-const Navbar = ({ socialLinks }: NavbarProps) => {
+const Navbar = ({ socialLinks }: NavbarPropsType) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -38,8 +31,8 @@ const Navbar = ({ socialLinks }: NavbarProps) => {
     };
   }, [isMobileMenuOpen]);
 
-  const navLinks = [
-    { name: "Home", path: "/" },
+  const navLinks: NavLinksType[] = [
+    { name: "Home", path: "#home" },
     { name: "About", path: "#about" },
     { name: "Experience", path: "#experience" },
     { name: "Projects", path: "#projects" },

@@ -26,13 +26,13 @@ const About: React.FC = () => {
 
           <div className="md:col-span-1 md:row-span-1 bg-neutral-800 rounded-3xl overflow-hidden border border-neutral-800">
             <Image
-              src="/images/Sankar_Karmakar.jpg"
+              src="/images/Sankar_Karmakar.png"
               alt="Sankar Karmakar"
               width={400}
               height={400}
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition duration-500 cursor-pointer"
+              className="relative w-full h-full object-cover md:grayscale md:hover:grayscale-0 transition duration-500 cursor-pointer z-50"
               placeholder="blur"
-              blurDataURL="/images/Sankar_Karmakar.jpg"
+              blurDataURL="/images/Sankar_Karmakar.png"
               sizes="(max-width: 768px) 100vw, 400px"
               quality={75}
             />

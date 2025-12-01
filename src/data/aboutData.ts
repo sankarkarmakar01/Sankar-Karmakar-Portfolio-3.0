@@ -1,10 +1,4 @@
-interface AboutDataType {
-  firstLine: string;
-  secondLine: string;
-  thirdLine: string;
-  location: string;
-  favoriteStack: string;
-}
+import { AboutDataType } from "@/interfaces/AboutDataType";
 
 export const aboutData: AboutDataType = {
   firstLine: "Hi, I'm Sankar.",

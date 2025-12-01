@@ -1,13 +1,6 @@
+import { SocialIconType } from "@/interfaces/SocialIconType";
 import Image from "next/image";
 import Link from "next/link";
-
-interface SocialIconType {
-  href?: string;
-  src: string;
-  alt: string;
-  className?: string;
-  size?: number;
-}
 
 const SocialIcon = ({
   href = "#",

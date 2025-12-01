@@ -39,3 +39,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.badge-hover {
+  transition: box-shadow 220ms cubic-bezier(.2, .8, .2, 1), transform 200ms ease;
+  will-change: box-shadow, transform;
+}
+
+.badge-hover:hover {
+  box-shadow: 0 8px 20px 0 var(--hover-color);
+  transform: translateY(-2px);
+}
