@@ -29,7 +29,7 @@ const Hero: React.FC = () => {
 
         {/* Download CV Button */}
         <Link
-          href="/pdfs/Sankar_Karmakar_CV.pdf"
+          href="/pdfs/Sankar_Karmaka_CV.pdf"
           className="group relative inline-flex items-center gap-2 sm:gap-3 px-5 sm:px-6 lg:px-8 py-3 sm:py-4 rounded-xl sm:rounded-2xl 
              bg-linear-to-br from-white/10 to-white/5 backdrop-blur-xl 
              border border-white/20 shadow-xl sm:shadow-2xl
