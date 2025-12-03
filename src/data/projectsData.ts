@@ -18,7 +18,7 @@ export const leftProjectData: ProjectsDataType = {
 };
 
 export const rightProjectData: ProjectsDataType = {
-  imageSource: "/images/demp-projects.jpg",
+  imageSource: "/images/learnsphere.png",
   title: "LearnSphere - ELearning Website",
   description:
     "I developed a complete E-Learning System using the MERN stack, which includes React.js, Node.js, Express.js, and MongoDB. It features MVC architecture, JWT authentication, token-based authorization, Email.js integration, and dynamic APIs that support all dashboards and data.",

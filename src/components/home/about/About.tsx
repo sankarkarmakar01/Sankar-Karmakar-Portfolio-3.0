@@ -30,7 +30,7 @@ const About: React.FC = () => {
               alt="Sankar Karmakar"
               width={400}
               height={400}
-              className="relative w-full h-full object-cover md:grayscale md:hover:grayscale-0 transition duration-500 cursor-pointer z-50"
+              className="w-full h-full object-cover saturate-100 md:grayscale md:hover:grayscale-0 md:hover:scale-105 md:transition md:duration-500 cursor-pointer"
               placeholder="blur"
               blurDataURL="/images/Sankar_Karmakar.png"
               sizes="(max-width: 768px) 100vw, 400px"
